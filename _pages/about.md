@@ -1,8 +1,8 @@
 ---
 title: About
-author: Tao He
+author: teen
 date: 2022-02-04
-category: Jekyll
+category: index
 layout: post
 ---
 

@@ -1,188 +1,108 @@
 ---
 layout: home
-title: Jekyll Gitbook Theme
+title: cs knowledge
 permalink: /
 ---
 
-Make Jelly site have a GitBook look!
+# 计算机专业知识库
 
-## Demo
+## 相关课程内容
 
-Live demo on Github Pages: [https://sighingnow.github.io/jekyll-gitbook](https://sighingnow.github.io/jekyll-gitbook)
+| 课程 | 内容 | 专业|
+|:---|:----|:-----|
+| 数学| 高等数学、线性代数、离线数学、概率论、微积分 | 必修  |
+| 计算机原理 | 计算机组成原理 | 必修  |
+| 算法设计与分析 | 算法导论、计算推理、复杂度分析 | 必修  |
+| 操作系统 | 操作系统 | 必修  |
+| 编译器 |  | 选修  |
+| 计算机网络| 计算机网络、架构与协议 | 必修  |
+| 数据结构 |  | 必修  |
+| 数据管理与数据系统 | 数据库系统、数据库与信息管理 | 必修  |
+| 软件工程 |  软件工程、软件构件原理、面向对象系统设计 | 必修  |
+| 编程语言 |  c、c++、python、编程方法、函数式编程 | 选修  |
 
-[![Jekyll Themes](https://img.shields.io/badge/featured%20on-JekyllThemes-red.svg)](https://jekyll-themes.com/jekyll-gitbook/)
+## 数据结构
 
-## Why Jekyll with GitBook
+* [线性表](/docs/data-structure/linear-list.md)
+* [栈和队](/docs/data-structure/stack-queue.md)
+* [树](/docs/data-structure/tree.md)
+* [图](/docs/data-structure/graph.md)
+* [散列查找](/docs/data-structure/hash.md)
+* [排序](/docs/data-structure/sort.md)
+* [海量数据处理](/docs/data-structure/mass_data_processing.md)
 
-GitBook is an amazing frontend style to present and organize contents (such as book chapters
-and blogs) on Web. The typical to deploy GitBook at [Github Pages][1]
-is building HTML files locally and then push to Github repository, usually to the `gh-pages`
-branch. It's quite annoying to repeat such workload and make it hard for people do version
-control via git for when there are generated HTML files to be staged in and out.
+## 算法
 
-This theme takes style definition out of generated GitBook site and provided the template
-for Jekyll to rendering markdown documents to HTML, thus the whole site can be deployed
-to [Github Pages][1] without generating and uploading HTML bundle every time when there are
-changes to the original repo.
+* [剑指offer](/docs/algorithm/For-offer.md)
+* [LeetCode](/docs/algorithm/leetcode.md)
 
-## How to Get Started
+## 编程语言
+* Java
+  * [Java基础](/docs/language/java/basis.md)
+  * [Java并发](/docs/language/java/concurrence.md)
+  * [Java虚拟机](/docs/language/java/virtual-machine.md)
+* Android
+  * [Android基础](/docs/language/android/basis.md)
+  * [Android进阶](/docs/language/android/advance.md)
+  * [开源框架](/docs/language/android/open-source-framework.md)
 
-This theme can be used just as other [Jekyll themes][1] and support [remote theme][12],
-see [the official guide][13] as well.
 
-You can introduce this jekyll theme into your own site by either
+## 设计模式
 
-- [Fork][3] this repository and add your markdown posts to the `_posts` folder.
-- Use as a remote theme in your [`_config.yml`][14](just like what we do for this
-  site itself),
+* [创建型模式](/docs/design-mode/Builder-Pattern.md)
+* [结构型模式](/docs/design-mode/Structural-Patterns.md)
+* [行为型模式](/docs/design-mode/Behavioral-Pattern.md)
 
-```yaml
-remote_theme: sighingnow/jekyll-gitbook
-```
+## 计算机网络
 
-### Deploy Locally with Jekyll Serve
+* [TCP/IP](/docs/networks/tcpip.md)
+* [HTTP](/docs/networks/http.md)
+* [HTTPS](/docs/networks/https.md)
+* [wireless](/docs/2022/01/wireless-network.md)
 
-This theme can be ran locally using Ruby and Gemfiles.
+## 操作系统
 
-[Testing your GitHub Pages site locally with Jekyll](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/testing-your-github-pages-site-locally-with-jekyll) - GitHub
+- [概述](/docs/operating-system/summarize.md)
+- [进程与线程](/docs/operating-system/process-thread.md)
+- [内存管理](/docs/operating-system/memory-management.md)
 
-## Full-text search
+## 数据库
 
-The search functionality in jekyll-gitbook theme is powered by the [gitbook-plugin-search-pro][5] plugin and is enabled by default.
+- [SQL语句](/docs/sql/SQL.md)
 
-[https://sighingnow.github.io/jekyll-gitbook/?q=generated](https://sighingnow.github.io/jekyll-gitbook/?q=generated)
+## 音视频与图形学
 
-## Code highlight
+- [音视频](/docs/media/README.md)
 
-The code highlight style is configurable the following entry in `_config.yaml`:
+## 物联网
 
-```yaml
-syntax_highlighter_style: colorful
-```
+- [IOT知识库](/docs/2022/README.md)
 
-The default code highlight style is `colorful`, the full supported styles can be found from [the rouge repository][6]. Customized
-style can be added to [./assets/gitbook/rouge/](./assets/gitbook/rouge/).
+## 致谢
 
-## How to generate TOC
+| 贡献者       | 贡献内容     | | 贡献者    | 贡献内容                       |
+| ------------ | ----------- |:--| ------ | -------------------------- |
+| YiKun        | Java集合      | | Zane   | AbstractQueuedSynchronizer |
+| DERRANTCM    | 剑指offer     | | 占小狼    | ConcurrentHashMap          |
+| skywang12345 | 数据结构      | | IAM四十二 | Android动画总结                |
+| Carson_Ho    | Android基础   | | me115  | 图解设计模式                     |
+| Piasy        | Android开源框架 | | 朱祁林    | https原理解析                  |
+| stormzhang   | Android全局异常 | | Trinea | Parcelable和Serializable    |
+| AriaLyy   | 多线程断点续传      | | JackieYeah | Java深拷贝和浅拷贝                  |
+| ZHANG_L   | Android进程优先级   | | 尹star      | Android Context详解            |
+| HELLO丶GUY | Fragment详解      | | Shawon     | Android推送技术                  |
+| 徐凯强Andy   | 动态规划          | | aaronice   | LeetCode/LintCode题解          |
+| 码农一枚      | BlockingQueue   | | Alexia     | Java transien和finally return |
+| 朔野        | Android Apk安装过程 | | 黑泥卡        | Dialog和PopupWindow           |
 
-The jekyll-gitbook theme leverages [jekyll-toc][4] to generate the *Contents* for the page.
-The TOC feature is not enabled by default. To use the TOC feature, modify the TOC
-configuration in `_config.yml`:
+持续更新，仍有更多内容尚未完善，欢迎大家投稿。
 
-```yaml
-toc:
-    enabled: true
-    h_min: 1
-    h_max: 3
-```
+### 资料库
+- [技术面试知识库 https://www.cyc2018.xyz](https://www.cyc2018.xyz)
+- [计算机专业大学课程导引](https://hackway.org/docs/cs/intro)
+- [Android校招面试指南](https://lrh1993.gitbooks.io/android_interview_guide/content/)
+- [算法通关之路](https://leetcode-solution-leetcode-pp.gitbook.io/leetcode-solution/)
 
-## Google Analytics, etc.
+------
 
-The jekyll-gitboook theme supports embedding the [Google Analytics][7], [CNZZ][8] and [Application Insights][9] website analytical tools with the following
-minimal configuration in `_config.yaml`:
-
-```yaml
-tracker:
-  google_analytics: "<YOUR GOOGLE ANALYTICS KEY, e.g, UA-xxxxxx-x>"
-```
-
-Similarly, CNZZ can be added with the following configuration in `_config.yaml`
-
-```yaml
-tracker:
-  cnzz: "<YOUR CNZZ ANALYTICS KEY, e.g., xxxxxxxx>"
-```
-
-Application Insights can be added with the following configuration in `_config.yaml`
-
-```yaml
-tracker:
-  application_insights: "<YOUR APPLICATION INSIGHTS CONNECTION STRING>"
-```
-
-## Disqus comments
-
-[Disqus](https://disqus.com/) comments can be enabled by adding the following configuration in `_config.yaml`:
-
-```yaml
-disqushandler: "<YOUR DISQUS SHORTNAME>"
-```
-
-## Extra StyleSheet or Javascript elements
-
-You can add extra CSS or JavaScript references using configuration collections:
-
-- extra_css: for additional style sheets. If the url does not start by http, the path must be relative to the root of the site, without a starting `/`.
-- extra_header_js: for additional scripts to be included in the `<head>` tag, after the `extra_css` has been added. If the url does not start by http, the path must be relative to the root of the site, without a starting `/`.
-- extra_footer_js: for additional scripts to be included at the end of the HTML document, just before the site tracking script. If the url does not start by http, the path must be relative to the root of the site, without a starting `/`.
-
-## Customizing font settings
-
-The fonts can be customized by modifying the `.book.font-family-0` and `.book.font-family-1` entry in [`./assets/gitbook/custom.css`][10],
-
-```css
-.book.font-family-0 {
-    font-family: Georgia, serif;
-}
-.book.font-family-1 {
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-}
-```
-
-## Tips, Warnings and Dangers blocks
-
-The jekyll-gitbook theme supports customized kramdown attributes (`{: .block-tip }`, `{: .block-warning }`,
-`{: .block-danger }`) like that displayed in [the discord.js website][11]. The marker can be used like
-
-```markdown
-> ##### TIP
->
-> This guide is last tested with @napi-rs/canvas^0.1.20, so make sure you have
-> this or a similar version after installation.
-{: .block-tip }
-```
-
-Rendered page can be previewed from
-
-[https://sighingnow.github.io/jekyll-gitbook/jekyll/2022-06-30-tips_warnings_dangers.html](https://sighingnow.github.io/jekyll-gitbook/jekyll/2022-06-30-tips_warnings_dangers.html)
-
-## Cover image inside pages
-
-The jekyll-gitbook theme supports adding a cover image to a specific page by adding
-a `cover` field to the page metadata:
-
-```diff
-  ---
-  title: Page with cover image
-  author: Tao He
-  date: 2022-05-24
-  category: Jekyll
-  layout: post
-+ cover: /assets/jekyll-gitbook/dinosaur.gif
-  ---
-```
-
-The effect can be previewed from
-
-[https://sighingnow.github.io/jekyll-gitbook/jekyll/2022-05-24-page_cover.html](https://sighingnow.github.io/jekyll-gitbook/jekyll/2022-05-24-page_cover.html)
-
-## License
-
-This work is open sourced under the Apache License, Version 2.0.
-
-Copyright 2019 Tao He.
-
-[1]: https://pages.github.com
-[2]: https://pages.github.com/themes
-[3]: https://github.com/sighingnow/jekyll-gitbook/fork
-[4]: https://github.com/allejo/jekyll-toc
-[5]: https://github.com/gitbook-plugins/gitbook-plugin-search-pro
-[6]: https://github.com/rouge-ruby/rouge/tree/master/lib/rouge/themes
-[7]: https://analytics.google.com/analytics/web/
-[8]: https://www.cnzz.com/
-[9]: https://docs.microsoft.com/en-us/azure/azure-monitor/app/app-insights-overview
-[10]: https://github.com/sighingnow/jekyll-gitbook/blob/master/gitbook/custom.css
-[11]: https://discordjs.guide/popular-topics/canvas.html#setting-up-napi-rs-canvas
-[12]: https://rubygems.org/gems/jekyll-remote-theme
-[13]: https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/adding-a-theme-to-your-github-pages-site-using-jekyll
-[14]: https://github.com/sighingnow/jekyll-gitbook/blob/master/_config.yml
+theme by [jekyll-gitbook](https://sighingnow.github.io/jekyll-gitbook)
