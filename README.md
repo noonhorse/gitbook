@@ -1,10 +1,8 @@
 ---
 layout: home
-title: cs knowledge
+title: 计算机专业知识库
 permalink: /
 ---
-
-# 计算机专业知识库
 
 ## 相关课程内容
 

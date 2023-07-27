@@ -303,3 +303,9 @@ TCP协议是一种面向连接的、可靠的、基于字节流的运输层通�
 
 通过以上步骤便完成了HTTP的请求和响应，进行了数据传递，这其中涉及到需要知识点，都进行了逐一了解。
 
+----
+
+文章参考：
+[HTTP-vs-HTTPS] https://www.cnblogs.com/AhuntSun-blog/p/12025393.html
+[TCP的三次握手](https://www.cnblogs.com/AhuntSun-blog/p/12028636.html)
+[TCP的四次挥手](https://www.cnblogs.com/AhuntSun-blog/p/12037852.html)
